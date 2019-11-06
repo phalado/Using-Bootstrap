@@ -2,14 +2,48 @@
   font-size: 20px!important;
 }
 
-p, a {
+p, a, article, body, section {
   padding: 0!important;
   margin: 0!important;
+  font-family: "Roboto Condensed",sans-serif!important;
 }
 
-.container0 {
-  max-width: 1310px;
-  padding: 0!important;
+a {
+  color: inherit!important;
+  font: inherit!important;
+}
+
+h2 {
+  font: bold 16px/16px "Roboto Condensed",sans-serif!important;
+  color: rgb(3,3,3);
+  color: rgba(3,3,3,.4);
+  padding-bottom: 11px;
+  margin-bottom: 0!important;
+}
+
+h3 {
+  font-size: 22px!important;
+  font-weight: bold!important;
+  line-height: 24px!important;
+  margin-bottom: 10px!important;
+  color: black;
+}
+
+h4 {
+  margin-bottom: 10px!important;
+  color: black;
+  font-size: 17px!important;
+  line-height: 20px!important;
+  font-weight: bold!important;
+}
+
+h5 {
+  color: #272727!important;
+  font: 20px/22px "Lora",serif!important;
+}
+
+.visible-lg {
+  display: none;
 }
 
 .header {
@@ -26,8 +60,7 @@ p, a {
 }
 
 .header-buttons {
-  font-size: 18px;
-  font: bold 14px/14px "Roboto Condensed",sans-serif!important;
+  font: bold 18px/14px "Roboto Condensed",sans-serif!important;
   right: 0;
   align-self: center;
 }
@@ -38,7 +71,7 @@ p, a {
 
 .subscribe {
   padding: 6px 10px 6px 12px!important;
-  color: #f72210;
+  color: #f72210!important;
 }
 
 .menu-icon {
@@ -47,8 +80,62 @@ p, a {
   opacity: 0.5;
 }
 
-.visible-lg {
-  display: none;
+.main {
+  padding: 20px 15px 0 15px!important;
+}
+
+.max-width1310 {
+  max-width: 1310px!important;
+}
+
+.btt-lft {
+  left: 0;
+  bottom: 0;
+  color: #f72210!important;
+  font: bold 17px/16px "Roboto Condensed",sans-serif!important;
+  padding: 8px 15px 9px 15px!important;
+}
+
+.summary {
+  color: #333!important;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial,Helvetica,sans-serif!important;
+}
+
+.ms-article {
+  padding: 14px 0!important;
+  display: inline-block;
+}
+
+.ms-img {
+  width: 258px;
+  margin-right: 15px;
+}
+
+.culture-travel {
+  background-color: #f4f5f7;
+}
+
+.cult-trvl {
+  padding: 15px 10px 20px 10px;
+}
+
+.ct-summary {
+  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif!important;
+  color: rgb(39,39,39);
+  color: rgba(39,39,39,.5)!important;
+}
+
+.tags {
+  background-color: #c2d4d7;
+  margin: 0 6px 6px!important;
+}
+
+.tags span {
+  padding: 0 6px!important;
+  font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif!important;
+  color: #272727!important;
 }
 
 @media (min-width: 992px) {
@@ -85,7 +172,6 @@ p, a {
     font-size: 21px;
     line-height: 24px;
     font-weight: bold;
-    font-family: "Roboto Condensed",sans-serif;
   }
 
   .nw-date {

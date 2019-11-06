@@ -1,0 +1,107 @@
+:root {
+  font-size: 20px!important;
+}
+
+p, a {
+  padding: 0!important;
+  margin: 0!important;
+}
+
+.container0 {
+  max-width: 1310px;
+  padding: 0!important;
+}
+
+.header {
+  position: relative;
+  background-color: #f72210;
+  height: 50px;
+  padding: 15px;
+}
+
+.logo-img {
+  width: 132px;
+  height: 20px;
+  vertical-align: top;
+}
+
+.header-buttons {
+  font-size: 18px;
+  font: bold 14px/14px "Roboto Condensed",sans-serif!important;
+  right: 0;
+  align-self: center;
+}
+
+.signin {
+  padding: 6px 12px!important;
+}
+
+.subscribe {
+  padding: 6px 10px 6px 12px!important;
+  color: #f72210;
+}
+
+.menu-icon {
+  font-size: 34px;
+  padding: 20px;
+  opacity: 0.5;
+}
+
+.visible-lg {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .visible-lg{
+    display: unset;
+  }
+
+  .header {
+    padding: 20px;
+    height: 95px;
+  }
+
+  .nw-logo {
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+
+  .logo-img {
+    width: 396px;
+    height: 60px;
+  }
+
+  .navbar0 {
+    left: 0;
+    padding-right: 160px;
+  }
+
+  .nav-list {
+    padding: 15px 0!important;
+  }
+
+  .nav-link {
+    color: black!important;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+  }
+
+  .nw-date {
+    left: 30px;
+    bottom: 15px;
+    font: 16px/34px "Roboto Condensed",sans-serif;
+  }
+
+  .header-buttons {
+    right: 10px;
+    bottom: 15px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+
+}

@@ -53,7 +53,7 @@ p, a {
 
 @media (min-width: 992px) {
   .visible-lg{
-    display: unset;
+    display: inherit;
   }
 
   .header {
@@ -101,6 +101,22 @@ p, a {
 
   .menu-icon {
     display: none;
+  }
+
+  .nav-item {
+    border-color: #d9d9d9;
+  }
+
+  .search-form {
+    width: 60px;
+    height: 54px;
+    top: 0;
+    right: 102px;
+  }
+
+  .search-icon {
+    right: 82px;
+    top: 11px;
   }
 
 

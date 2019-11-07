@@ -13,8 +13,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
-    <body class="container-fluid max-width1310">
-        <header class="position-fixed header max-width1310">
+    <body class="container-fluid">
+        <header class="position-fixed header">
             <div class="text-white d-flex header-div position-relative justify-content-sm-between">
                 <a href="#" class="nw-logo text-white position-absolute float-left"><img src="images/logo.svg" class="logo-img" alt="Logo image"></a>
                 <p class="nw-date text-white visible-lg position-absolute">Wed, Nov 06, 2019</p>
@@ -43,11 +43,11 @@
                 <span class="search-icon position-absolute"><i class="fa fa-search" aria-hidden="true"></i></span>
             </div>
         </nav>
-        <main class="card-body main">
+        <main class="card-body main position-absolute">
             <article class="top-story container max-width1310 pb-3">
                 <h2>TOP STORY</h2>
                 <div class="card border-0">
-                    <div class="position-relative mb-2">
+                    <div class="position-relative mb-2 red-font">
                         <a href="#"><img src="images/impeach-article.jpg" class="card-img-top" alt="Top story image"></a>
                         <a href="#" class="bg-white border-0 btt-lft position-absolute">POLITICS</a>
                     </div>
@@ -190,7 +190,7 @@
                 </article>
                 <article class="pb-3">
                     <div class="card border-0">
-                        <div class="position-relative mb-2 fs-image">
+                        <div class="position-relative mb-2 red-font">
                             <a href="#"><img src="images/best-customer-service.webp" class="card-img-top" alt="Top story image"></a>
                             <a href="#" class="bg-white border-0 btt-lft position-absolute">SURVEY</a>
                         </div>
@@ -201,8 +201,162 @@
                     </div>
                 </article>
             </section>
+            <section class="sponsored-insight container max-width1310">
+                <article class="pb-4">
+                    <div class="card border-0">
+                        <div class="position-relative blue-font">
+                            <a href="#"><img src="images/equis.jpg" class="card-img-top" alt="Top story image"></a>
+                            <span class="bg-white border-0 btt-lft position-absolute">SPONDORED INSIGHT</span>
+                        </div>
+                        <div class="border p-3">
+                            <h6 class="card-title"><a href="#">EQUIS Accredited Business Schools 2019</a></h3>
+                            <p class="summary">It is important to check whether a school is accredited by a credible global accreditation body and meets internationally agreed quality standards. EQUIS gives you that piece of mind.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pb-4">
+                    <div class="card border-0">
+                        <div class="position-relative blue-font">
+                            <a href="#"><img src="images/y-coding.png" class="card-img-top" alt="Top story image"></a>
+                            <span class="bg-white border-0 btt-lft position-absolute">SPONDORED INSIGHT</span>
+                        </div>
+                        <div class="border p-3">
+                            <h6 class="card-title"><a href="#">Why Haven’t You Thought About Coding?</a></h3>
+                            <p class="summary">The industry demand for coders is skyrocketing. It is increasingly recognized as a rewarding, future-proof and flexible vocation and it’s easier to jump on the train than you might think. Find out more...</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pb-4">
+                    <div class="card border-0">
+                        <div class="position-relative blue-font">
+                            <a href="#"><img src="images/university.jpg" class="card-img-top" alt="Top story image"></a>
+                            <span class="bg-white border-0 btt-lft position-absolute">SPONDORED INSIGHT</span>
+                        </div>
+                        <div class="border p-3">
+                            <h6 class="card-title"><a href="#">Which Global Universities are Leading the Way in 2019?</a></h3>
+                            <p class="summary">The world is shrinking and the concept of a "global marketplace" has never been more appreciable. Which universities are best preparing tomorrow’s international thought leaders?</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="opinion container max-width1310 mb-4">
+                <h2>OPINION</h2>
+                <div class="pb-2 border-bottom d-flex">
+                    <a href="#" class="float-left author-img"><img src="images/naveed-jamali-2.png" alt="Naveed Jamali"></a>
+                    <div>
+                        <a href="#" class="opinion-article">Why Quid Pro Quo Works When Collusion Didn't</a>
+                        <p class="author-name">BY NAVEED JAMALI</p>
+                    </div>
+                </div>
+                <div class="py-2 border-bottom d-flex">
+                    <a href="#" class="float-left author-img"><img src="images/greg-olear.png" alt="Greg Olear"></a>
+                    <div>
+                        <a href="#" class="opinion-article">Mike Pence Knew</a>
+                        <p class="author-name">BY GREG OLEAR</p>
+                    </div>
+                </div>
+                <div class="py-2 border-bottom d-flex">
+                    <a href="#" class="float-left author-img"><img src="images/tom-rogers.png" alt="Tom Rogers"></a>
+                    <div>
+                        <a href="#" class="opinion-article">If Trump Defies the Courts, We're in a Nightmare.</a>
+                        <p class="author-name">BY TOM ROGERS</p>
+                    </div>
+                </div>
+                <div class="py-2 border-bottom d-flex">
+                    <a href="#" class="float-left author-img"><img src="images/charlie-kirk.png" alt="Charlie Kirk"></a>
+                    <div>
+                        <a href="#" class="opinion-article">YG and Other Celebs' Hatred of Trump Isn't Just Extreme. It's Unfounded</a>
+                        <p class="author-name">BY CHARLIE KIRK</p>
+                    </div>
+                </div>
+                <div class="py-2 border-bottom d-flex">
+                    <a href="#" class="float-left author-img"><img src="images/eric-higgs.png" alt="Eric Higgs"></a>
+                    <div>
+                        <a href="#" class="opinion-article">We Truckers Can Slam the Brakes on Human Trafficking</a>
+                        <p class="author-name">BY ERIC HIGGS</p>
+                    </div>
+                </div>
+                <div class="py-2 d-flex">
+                    <a href="#" class="float-left author-img"><img src="images/robert-reich.png" alt="Robert Reich"></a>
+                    <div>
+                        <a href="#" class="opinion-article">Twitter and Facebook Are Bullhorns for Lies. We Must Break Them Up</a>
+                        <p class="author-name">BY ROBERT REICH</p>
+                    </div>
+                </div>
+            </section>
+            <section class="latest-news container max-width1310 mb-4">
+                <h2>LATEST NEWS</h2>
+                <ul class="pl-0">
+                    <li class="border-bottom ln-list d-flex pb-2">
+                        <a href="#" class="float-left"><img src="images/runner.jpg" class="ln-img" alt="Runner"></a>
+                        <a href="#" class="ln-article">Nike Runner Mary Cain Speaks Out About 'Sick' Training System</a>
+                    </li>
+                    <li class="border-bottom ln-list d-flex py-2">
+                        <a href="#" class="float-left"><img src="images/milkshake.jpg" class="ln-img" alt="Milkshaking"></a>
+                        <a href="#" class="ln-article">'Milkshaking' Becomes an Official Word After Far Right Doused With Dairy</a>
+                    </li>
+                    <li class="border-bottom ln-list d-flex py-2">
+                        <a href="#" class="float-left"><img src="images/bernie-sanders.jpg" class="ln-img" alt="Bernie Sanders"></a>
+                        <a href="#" class="ln-article">Bernie Sanders Vows To 'Break Up' ICE, CBP In Immigration Planm</a>
+                    </li>
+                    <li class="border-bottom ln-list d-flex py-2">
+                        <a href="#" class="float-left"><img src="images/trump.jpg" class="ln-img" alt="Trump"></a>
+                        <a href="#" class="ln-article">Fox News Judge Says GOP's Latest Defense of 'Bedfellow' Trump Is 'Absurd'</a>
+                    </li>
+                    <li class="border-bottom ln-list d-flex py-2">
+                        <a href="#" class="float-left"><img src="images/trump-apprentice.jpg" class="ln-img" alt="Trump apprentice"></a>
+                        <a href="#" class="ln-article">Twitter Responds to Reports Trump is Planning 'The Apprentice: White House'</a>
+                    </li>
+                    <li class="border-bottom ln-list d-flex py-2">
+                        <a href="#" class="float-left"><img src="images/protest.jpg" class="ln-img" alt="Protest"></a>
+                        <a href="#" class="ln-article">Conservative Candidate Once Said Rape Victims Are 'Partially Responsible'</a>
+                    </li>
+                    <li class="ln-list d-flex py-2">
+                        <a href="#" class="float-left"><img src="images/suspect.jpg" class="ln-img" alt="Suspect"></a>
+                        <a href="#" class="ln-article">Mother Turns in 13-year-old Double Murder Suspect After He Escaped Custody</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="sponsored-insight container max-width1310">
+                <article class="pb-4">
+                    <div class="card border-0">
+                        <div class="position-relative blue-font">
+                            <a href="#"><img src="images/qatar.png" class="card-img-top" alt="Qatar"></a>
+                            <span class="bg-white border-0 btt-lft position-absolute">SPONDORED INSIGHT</span>
+                        </div>
+                        <div class="border p-3">
+                            <h6 class="card-title"><a href="#">Leaders of Qatar, Part 1</a></h3>
+                            <p class="summary">Qatar is one of the fast-growing regional economies and among the most promising in the MENA region, maintaining balanced growth rates despite various global challenges.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pb-4">
+                    <div class="card border-0">
+                        <div class="position-relative blue-font">
+                            <a href="#"><img src="images/new-york-medical-college.jpg" class="card-img-top" alt="New York Medical College"></a>
+                            <span class="bg-white border-0 btt-lft position-absolute">SPONDORED INSIGHT</span>
+                        </div>
+                        <div class="border p-3">
+                            <h6 class="card-title"><a href="#">What Can a Degree in Public Health Do For You?</a></h3>
+                            <p class="summary">The field of public health is a powerful draw for those who feel inspired to make a positive difference in their communities. Find out more.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pb-4">
+                    <div class="card border-0">
+                        <div class="position-relative blue-font">
+                            <a href="#"><img src="images/wizard-oz.jpg" class="card-img-top" alt="Wizard of Oz"></a>
+                            <span class="bg-white border-0 btt-lft position-absolute">SPONDORED INSIGHT</span>
+                        </div>
+                        <div class="border p-3">
+                            <h6 class="card-title"><a href="#">Wizard of Oz Special Edition</a></h3>
+                            <p class="summary">Celebrate the 80th anniversary of one of the most iconic American films with Newsweek’s Special Edition. Featuring an introduction from the president of the International Wizard of Oz Club and an inside look at the new Judy Garland biopic.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
         </main>
-        <footer class="card-footer">
+        <footer class="card-footer position-absolute">
             Footer
         </footer>
     </body>

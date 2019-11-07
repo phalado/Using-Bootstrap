@@ -1,17 +1,23 @@
 :root {
-  font-size: 20px!important;
+  font-size: 20px;
 }
 
 p, a, article, body, section {
-  padding: 0!important;
-  margin: 0!important;
   color: black;
-  font-family: "Roboto Condensed",sans-serif!important;
+  font-family: "Roboto Condensed",sans-serif;
 }
 
 a {
   color: inherit!important;
-  font: inherit!important;
+  font: inherit;
+}
+
+p {
+  margin-bottom: 0!important;
+}
+
+h1 {
+  font: bold 19px/19px "Roboto Condensed",sans-serif!important;
 }
 
 h2 {
@@ -52,16 +58,49 @@ h6 {
   display: none;
 }
 
+.mt-15, .my-15, .m-15 {
+  marging-top: 15px!important;
+}
+
+.mb-15, .my-15, .m-15 {
+  marging-bottom: 15px!important;
+}
+
+.ml-15, .mx-15, .m-15 {
+  marging-left: 15px!important;
+}
+
+.mr-15, .mx-15, .m-15 {
+  marging-right: 15px!important;
+}
+
+.pt-15, .py-15, .p-15 {
+  padding-top: 15px!important;
+}
+
+.pb-15, .py-15, .p-15 {
+  padding-bottom: 15px!important;
+}
+
+.pl-15, .px-15, .p-15 {
+  padding-left: 15px!important;
+}
+
+.pr-15, .px-15, .p-15 {
+  padding-right: 15px!important;
+}
+
 .header {
   z-index: 999;
   width: 100%;
+  margin: 0 auto;
+  position: fixed;
 }
 
 .header-div {
   position: relative;
   background-color: #f72210;
   height: 50px;
-  padding: 15px;
 }
 
 .logo-img {
@@ -77,23 +116,22 @@ h6 {
 }
 
 .signin {
-  padding: 6px 12px!important;
+  padding: 6px 12px;
 }
 
 .subscribe {
-  padding: 6px 10px 6px 12px!important;
+  padding: 6px 10px 6px 12px;
   color: #f72210!important;
 }
 
 .menu-icon {
   font-size: 34px;
-  padding: 20px;
   opacity: 0.5;
 }
 
 .main {
-  padding: 20px 15px 0 15px!important;
   top: 50px;
+  margin: 0 auto;
 }
 
 .max-width1310 {
@@ -134,10 +172,6 @@ h6 {
 
 .culture-travel {
   background-color: #f4f5f7;
-}
-
-.cult-trvl {
-  padding: 15px 10px 20px 10px;
 }
 
 .ct-summary {
@@ -186,6 +220,67 @@ h6 {
 .ln-article {
   font: bold 17px/21px "Roboto Condensed",sans-serif!important;
   height: fit-content;
+}
+
+.width100 {
+  width: 100%
+}
+
+.mc-sub {
+  text-align: center;
+  background-color: #f4f5f6;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+}
+
+.n-logo {
+  background-color: #f72210;
+  width: 29px;
+  height: 28px;
+}
+
+.red-block {
+  background-color: #f72210;
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+}
+
+.red-text {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  color: #f72210!important;
+}
+
+.itm-article-tittle {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.red-inside {
+  bottom: 0;
+  left: 0;
+}
+
+.double-box {
+  height: 45px;
+  width:45px;
+
+}
+
+.slideshow {
+  background: url("../images/slide-icon.png") 0 0/contain no-repeat;
+  width: 70px;
+  height: 52px;
+  font-weight: bold!important;
+  font-size: 20px!important;
+  line-height: 45px!important;
+  text-indent: 5px;
+  text-align: center;
+  display: block;
+}
+
+.slideshow-tittle {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {

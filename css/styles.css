@@ -59,19 +59,19 @@ h6 {
 }
 
 .mt-15, .my-15, .m-15 {
-  marging-top: 15px!important;
+  margin-top: 15px!important;
 }
 
 .mb-15, .my-15, .m-15 {
-  marging-bottom: 15px!important;
+  margin-bottom: 15px!important;
 }
 
 .ml-15, .mx-15, .m-15 {
-  marging-left: 15px!important;
+  margin-left: 15px!important;
 }
 
 .mr-15, .mx-15, .m-15 {
-  marging-right: 15px!important;
+  margin-right: 15px!important;
 }
 
 .pt-15, .py-15, .p-15 {
@@ -130,7 +130,7 @@ h6 {
 }
 
 .main {
-  top: 50px;
+  padding-top: 70px!important;
   margin: 0 auto;
 }
 
@@ -291,6 +291,79 @@ h6 {
   font: bold 22px/16px "Roboto Condensed",sans-serif!important;
 }
 
+.aside-heading {
+  color: #f72210;
+  padding-bottom: 11px;
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+}
+
+.subscribe-box {
+  background-color: #f4f5f6;
+  padding-top: 24px;
+}
+
+.cover-box {
+  padding-bottom: 13px;
+  padding-right: 90px;
+  display: inline-block;
+}
+
+.cover-1 {
+  width: 170px;
+  top: 13px;
+  left: 80px;
+}
+
+.h3-2 {
+  font-size: 20px!important;
+}
+
+.subscribe-benefits {
+  font: 300 15px/21px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.red-button {
+  background-color: #f72210;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+}
+
+.starting-5-img {
+  background: url("../images/newsletter.png") center center/cover no-repeat;
+  height: 160px;
+}
+
+.footer-logo {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px!important;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.icon-list {
+  list-style: none;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.last-links-list {
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
 @media (min-width: 992px) {
   .visible-lg{
     display: inherit;
@@ -360,7 +433,7 @@ h6 {
   }
 
   .main {
-    top: 155px;
+    padding-top:115px!important;
   }
 
 }

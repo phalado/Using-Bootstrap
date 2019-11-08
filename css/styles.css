@@ -16,10 +16,6 @@ p {
   margin-bottom: 0!important;
 }
 
-h1 {
-  font: bold 19px/19px "Roboto Condensed",sans-serif!important;
-}
-
 h2 {
   font: bold 16px/16px "Roboto Condensed",sans-serif!important;
   color: rgb(3,3,3);
@@ -233,6 +229,10 @@ h6 {
   font: bold 18px/18px "Roboto Condensed",sans-serif;
 }
 
+.logo-mag {
+  font: bold 19px/19px "Roboto Condensed",sans-serif!important;
+}
+
 .n-logo {
   background-color: #f72210;
   width: 29px;
@@ -333,10 +333,6 @@ h6 {
 .starting-5-img {
   background: url("../images/newsletter.png") center center/cover no-repeat;
   height: 160px;
-}
-
-.no-name {
-  display: flow-root;
 }
 
 .footer-logo {

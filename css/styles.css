@@ -1,0 +1,446 @@
+:root {
+  font-size: 20px;
+}
+
+p,
+a,
+article,
+body,
+section {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  color: inherit !important;
+  font: inherit;
+}
+
+h1 {
+  font: bold 19px/19px "Roboto Condensed", sans-serif !important;
+}
+
+h2 {
+  font: bold 16px/16px "Roboto Condensed", sans-serif !important;
+  color: rgb(3, 3, 3);
+  color: rgba(3, 3, 3, 0.4);
+  padding-bottom: 11px;
+}
+
+h3 {
+  font: bold 22px/24px "Roboto Condensed", sans-serif !important;
+}
+
+h4 {
+  font: bold 17px/20px "Roboto Condensed", sans-serif !important;
+}
+
+h5 {
+  font: 20px/22px "Lora", serif !important;
+}
+
+h6 {
+  font: bold 20px/20px "Roboto Condensed", sans-serif !important;
+}
+
+.visible-lg {
+  display: none;
+}
+
+.mt-15,
+.my-15,
+.m-15 {
+  margin-top: 15px !important;
+}
+
+.mb-15,
+.my-15,
+.m-15 {
+  margin-bottom: 15px !important;
+}
+
+.ml-15,
+.mx-15,
+.m-15 {
+  margin-left: 15px !important;
+}
+
+.mr-15,
+.mx-15,
+.m-15 {
+  margin-right: 15px !important;
+}
+
+.pt-15,
+.py-15,
+.p-15 {
+  padding-top: 15px !important;
+}
+
+.pb-15,
+.py-15,
+.p-15 {
+  padding-bottom: 15px !important;
+}
+
+.pl-15,
+.px-15,
+.p-15 {
+  padding-left: 15px !important;
+}
+
+.pr-15,
+.px-15,
+.p-15 {
+  padding-right: 15px !important;
+}
+
+.header {
+  z-index: 999;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+}
+
+.header-div {
+  position: relative;
+  background-color: #f72210;
+  height: 50px;
+}
+
+.logo-img {
+  width: 132px;
+  height: 20px;
+  vertical-align: top;
+}
+
+.header-buttons {
+  font: bold 18px/14px "Roboto Condensed", sans-serif;
+  right: 0;
+  color: #f72210;
+  align-self: center;
+}
+
+.signin {
+  padding: 6px 12px;
+}
+
+.subscribe {
+  padding: 6px 10px 6px 12px;
+}
+
+.menu-icon {
+  font-size: 34px;
+  opacity: 0.5;
+}
+
+.main {
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+.max-width1310 {
+  max-width: 1310px !important;
+}
+
+.red-font {
+  color: #f72210;
+}
+
+.blue-font {
+  color: #3581f4;
+}
+
+.btt-lft {
+  left: 0;
+  bottom: 0;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  padding: 8px 15px 9px 15px;
+}
+
+.summary {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ms-article {
+  padding: 14px 0;
+  display: inline-block;
+}
+
+.ms-img {
+  width: 258px;
+  margin-right: 15px;
+}
+
+.culture-travel {
+  background-color: #f4f5f7;
+}
+
+.ct-summary {
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgb(39, 39, 39);
+  color: rgba(39, 39, 39, 0.5);
+}
+
+.tags {
+  background-color: #c2d4d7;
+  margin: 0 6px 6px;
+}
+
+.tags span {
+  padding: 0 6px;
+  font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: #272727;
+}
+
+.opinion-article {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+}
+
+.author-name {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.ln-list {
+  list-style: none;
+}
+
+.ln-img {
+  width: 258px;
+  margin-right: 15px;
+}
+
+.ln-article {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  height: fit-content;
+  word-break: break-all;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.mc-sub {
+  text-align: center;
+  background-color: #f4f5f6;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+}
+
+.logo-mag {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+}
+
+.n-logo {
+  background-color: #f72210;
+  width: 29px;
+  height: 28px;
+}
+
+.red-block {
+  background-color: #f72210;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+}
+
+.red-text {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+}
+
+.itm-article-tittle {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.red-inside {
+  bottom: 0;
+  left: 0;
+}
+
+.double-box {
+  height: 45px;
+  width: 45px;
+}
+
+.slideshow {
+  background: url("../images/slide-icon.png") 0 0/contain no-repeat;
+  width: 70px;
+  height: 52px;
+  font: bold 20px/45px "Roboto Condensed", sans-serif;
+  text-indent: 5px;
+  text-align: center;
+  display: block;
+}
+
+.slideshow-tittle {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.us-heading {
+  padding: 25px 0 11px 0;
+  border-top: 1px solid #d9d9d9;
+  font: bold 22px/16px "Roboto Condensed", sans-serif;
+}
+
+.aside-heading {
+  color: #f72210;
+  padding-bottom: 11px;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+}
+
+.subscribe-box {
+  background-color: #f4f5f6;
+  padding-top: 24px;
+}
+
+.cover-box {
+  padding-bottom: 13px;
+  padding-right: 90px;
+  display: inline-block;
+}
+
+.cover-1 {
+  width: 170px;
+  top: 13px;
+  left: 80px;
+}
+
+.h3-2 {
+  font-size: 20px !important;
+}
+
+.subscribe-benefits {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.red-button {
+  background-color: #f72210;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+}
+
+.starting-5-img {
+  background: url("../images/newsletter.png") center center/cover no-repeat;
+  height: 160px;
+}
+
+.footer-logo {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-list {
+  list-style: none;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.last-links-list {
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .ms-img,
+  .ln-img {
+    width: 135px;
+  }
+
+  .sponsored-2 {
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 992px) {
+  .visible-lg {
+    display: inherit;
+  }
+
+  .header-div {
+    padding: 20px;
+    height: 95px;
+  }
+
+  .nw-logo {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .logo-img {
+    width: 396px;
+    height: 60px;
+  }
+
+  .navbar0 {
+    top: 95px;
+    left: 0;
+    padding-right: 160px;
+  }
+
+  .nav-list {
+    color: black;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
+  .nw-date {
+    left: 30px;
+    bottom: 15px;
+    font: 16px/34px "Roboto Condensed", sans-serif;
+  }
+
+  .header-buttons {
+    right: 10px;
+    bottom: 15px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-item {
+    border-color: #d9d9d9;
+  }
+
+  .search-form {
+    width: 60px;
+    height: 54px;
+    top: 0;
+    right: 102px;
+  }
+
+  .search-icon {
+    right: 82px;
+    top: 11px;
+  }
+
+  .main {
+    padding-top: 115px;
+  }
+}

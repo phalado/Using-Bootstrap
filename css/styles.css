@@ -362,7 +362,8 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  .ms-img, .ln-img {
+  .ms-img,
+  .ln-img {
     width: 135px;
   }
 

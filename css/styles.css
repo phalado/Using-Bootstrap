@@ -3,7 +3,6 @@
 }
 
 p, a, article, body, section {
-  color: black;
   font-family: "Roboto Condensed",sans-serif;
 }
 
@@ -12,8 +11,8 @@ a {
   font: inherit;
 }
 
-p {
-  margin-bottom: 0!important;
+h1 {
+  font: bold 19px/19px "Roboto Condensed",sans-serif!important;
 }
 
 h2 {
@@ -21,33 +20,22 @@ h2 {
   color: rgb(3,3,3);
   color: rgba(3,3,3,.4);
   padding-bottom: 11px;
-  margin-bottom: 0!important;
 }
 
 h3 {
-  font-size: 22px!important;
-  font-weight: bold!important;
-  line-height: 24px!important;
-  margin-bottom: 10px!important;
+  font: bold 22px/24px "Roboto Condensed",sans-serif!important;
 }
 
 h4 {
-  margin-bottom: 10px!important;
-  font-size: 17px!important;
-  line-height: 20px!important;
-  font-weight: bold!important;
+  font: bold 17px/20px "Roboto Condensed",sans-serif!important;
 }
 
 h5 {
-  color: #272727!important;
   font: 20px/22px "Lora",serif!important;
 }
 
 h6 {
-  font-size: 20px!important;
-  line-height: 20px!important;
-  font-weight: bold!important;
-  margin-bottom: 10px!important;
+  font: bold 20px/20px "Roboto Condensed",sans-serif!important;
 }
 
 .visible-lg {
@@ -106,9 +94,9 @@ h6 {
 }
 
 .header-buttons {
-  font: bold 18px/14px "Roboto Condensed",sans-serif!important;
+  font: bold 18px/14px "Roboto Condensed",sans-serif;
   right: 0;
-  align-self: center;
+  color: #f72210;
 }
 
 .signin {
@@ -117,7 +105,6 @@ h6 {
 
 .subscribe {
   padding: 6px 10px 6px 12px;
-  color: #f72210!important;
 }
 
 .menu-icon {
@@ -126,7 +113,7 @@ h6 {
 }
 
 .main {
-  padding-top: 70px!important;
+  padding-top: 70px;
   margin: 0 auto;
 }
 
@@ -145,19 +132,19 @@ h6 {
 .btt-lft {
   left: 0;
   bottom: 0;
-  font: bold 17px/16px "Roboto Condensed",sans-serif!important;
-  padding: 8px 15px 9px 15px!important;
+  font: bold 17px/16px "Roboto Condensed",sans-serif;
+  padding: 8px 15px 9px 15px;
 }
 
 .summary {
-  color: #333!important;
+  color: #333;
   font-size: 13px;
   line-height: 18px;
-  font-family: Arial,Helvetica,sans-serif!important;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 .ms-article {
-  padding: 14px 0!important;
+  padding: 14px 0;
   display: inline-block;
 }
 
@@ -171,28 +158,24 @@ h6 {
 }
 
 .ct-summary {
-  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif!important;
+  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
   color: rgb(39,39,39);
-  color: rgba(39,39,39,.5)!important;
+  color: rgba(39,39,39,.5);
 }
 
 .tags {
   background-color: #c2d4d7;
-  margin: 0 6px 6px!important;
+  margin: 0 6px 6px;
 }
 
 .tags span {
-  padding: 0 6px!important;
-  font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif!important;
-  color: #272727!important;
-}
-
-.author-img {
-  margin-right: 15px!important;
+  padding: 0 6px;
+  font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: #272727;
 }
 
 .opinion-article {
-  font: bold 17px/21px "Roboto Condensed",sans-serif!important;
+  font: bold 17px/21px "Roboto Condensed",sans-serif;
 }
 
 .author-name {
@@ -201,7 +184,6 @@ h6 {
   font-weight: bold;
   color: #555;
   text-transform: uppercase;
-  margin-top: 4px!important;
 }
 
 .ln-list {
@@ -214,7 +196,7 @@ h6 {
 }
 
 .ln-article {
-  font: bold 17px/21px "Roboto Condensed",sans-serif!important;
+  font: bold 17px/21px "Roboto Condensed",sans-serif;
   height: fit-content;
   word-break: break-all;
 }
@@ -230,7 +212,7 @@ h6 {
 }
 
 .logo-mag {
-  font: bold 19px/19px "Roboto Condensed",sans-serif!important;
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
 }
 
 .n-logo {
@@ -246,7 +228,7 @@ h6 {
 
 .red-text {
   font: bold 16px/26px "Roboto Condensed",sans-serif;
-  color: #f72210!important;
+  color: #f72210;
 }
 
 .itm-article-tittle {
@@ -270,9 +252,7 @@ h6 {
   background: url("../images/slide-icon.png") 0 0/contain no-repeat;
   width: 70px;
   height: 52px;
-  font-weight: bold!important;
-  font-size: 20px!important;
-  line-height: 45px!important;
+  font: bold 20px/45px "Roboto Condensed",sans-serif;
   text-indent: 5px;
   text-align: center;
   display: block;
@@ -287,9 +267,8 @@ h6 {
 .us-heading {
   padding: 25px 0 11px 0;
   border-top: 1px solid #d9d9d9;
-  color: #f72210!important;
   line-height: 22px;
-  font: bold 22px/16px "Roboto Condensed",sans-serif!important;
+  font: bold 22px/16px "Roboto Condensed",sans-serif;
 }
 
 .aside-heading {
@@ -348,7 +327,6 @@ h6 {
   line-height: 12px;
   text-transform: uppercase;
   color: #666;
-  margin-bottom: 12px!important;
   font-family: Arial,Helvetica,sans-serif;
 }
 
@@ -402,12 +380,11 @@ h6 {
   }
 
   .nav-list {
-    padding: 15px 0!important;
+    color: black;
   }
 
   .nav-link {
-    color: black!important;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: bold;
   }
@@ -444,7 +421,7 @@ h6 {
   }
 
   .main {
-    padding-top:115px!important;
+    padding-top:115px;
   }
 
 }

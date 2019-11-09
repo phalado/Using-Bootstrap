@@ -1,4 +1,6 @@
 linters:
+  stylelint:
+    config: 'stylelint.config.js'
   csslint:
     ignore: 'box-model,box-sizing,order-alphabetical,important'
 files:

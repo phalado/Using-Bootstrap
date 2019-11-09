@@ -117,6 +117,7 @@ h6 {
   font: bold 18px/14px "Roboto Condensed", sans-serif;
   right: 0;
   color: #f72210;
+  align-self: center;
 }
 
 .signin {

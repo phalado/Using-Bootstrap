@@ -94,11 +94,16 @@ h6 {
   padding-right: 15px !important;
 }
 
+.container-fluid {
+  max-width: 1310px;
+}
+
 .header {
   z-index: 999;
   width: 100%;
   margin: 0 auto;
   position: fixed;
+  max-width: 1310px;
 }
 
 .header-div {
@@ -139,7 +144,7 @@ h6 {
 }
 
 .max-width1310 {
-  max-width: 1310px !important;
+  max-width: 1310px;
 }
 
 .red-font {
